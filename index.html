@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de temperatura</title>
+    <link rel="stylesheet" href="css/variable.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1>Conversor de temperatura</h1>
+    <h2>Selecione qual o formato da temperatura que deseja converter</h2>
+    <label for="unidade-origem">Unidade de Origem</label>
+    <select id="unidade-origem">
+      <option value="Celsius">Celsius</option>
+      <option value="Fahrenheit">Fahrenheit</option>
+      <option value="Kelvin">Kelvin</option>
+    </select>
+    <label for="valor-temperatura">Digite a temperatura</label>
+    <input
+      type="number"
+      step="any"
+      id="valor-temperatura"
+      placeholder="Ex: 25"
+    />
+    <label for="unidede-destino">Unidade de Destino</label>
+    <select id="unidade-destino">
+      <option value="Celsius">Celsius</option>
+      <option value="Fahrenheit">Fahrenheit</option>
+      <option value="Kelvin">Kelvin</option>
+    </select>
+
+    <button type="button" id="botaoConverter">Converter temperatura</button>
+    <h2>Resultado da conversão</h2>
+    <p id="resultado"></p>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

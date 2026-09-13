@@ -1,0 +1,12 @@
+:root {
+  --cor-fundo: #f4f4f4;
+  --cor-borda: #ccc;
+  --cor-borda-foco: #333;
+  --cor-botao: #222;
+  --cor-botao-hover: #444;
+  --cor-texto-botao: #fff;
+
+  --largura-campo: 300px;
+  --raio-borda: 8px;
+  --espaco-padrao: 20px;
+}
