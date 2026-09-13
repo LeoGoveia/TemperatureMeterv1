@@ -16,9 +16,14 @@ Converte um valor de temperatura entre Celsius, Fahrenheit e Kelvin. O usuário 
 ```
 
 Validações implementadas
+
 Campo vazio → avisa para digitar um valor.
 Valor não numérico → avisa que o valor é inválido.
 Kelvin negativo → bloqueado, já que o zero absoluto é 0K (não existe Kelvin negativo na física).
+
 Decisões técnicas
-A conversão usa Celsius como unidade intermediária: primeiro converte a origem para Celsius, depois de Celsius para o destino. Isso evita ter que escrever uma fórmula para cada combinação possível entre as 3 unidades (o que resultaria em 6 fórmulas em vez de 6, mas repetidas de forma acoplada).
+
+A conversão usa Celsius como unidade intermediária: primeiro converte a origem para Celsius, depois de Celsius para o destino. 
+Isso evita ter que escrever uma fórmula para cada combinação possível entre as 3 unidades (o que resultaria em 6 fórmulas em vez de 6, mas repetidas de forma acoplada).
 As conversões ficam em objetos (paraCelsius, deCelsius) em vez de blocos if/else, para facilitar adicionar novas unidades no futuro (bastaria adicionar uma chave nova em cada objeto).
+Métrica de zero absoluto: Impossibilita a inserção de uma temperatura menor que o zero absoluto registrado pela física. 
