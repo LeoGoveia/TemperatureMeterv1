@@ -30,3 +30,5 @@ Isso evita ter que escrever uma fórmula para cada combinação possível entre 
 As conversões ficam em objetos (paraCelsius, deCelsius) em vez de blocos if/else, para facilitar adicionar novas unidades no futuro (bastaria adicionar uma chave nova em cada objeto).
 
 Métrica de zero absoluto: Impossibilita a inserção de uma temperatura menor que o zero absoluto registrado pela física. 
+
+Acesso ao projeto: [https://temperaturemeterv1.netlify.app/]
