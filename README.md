@@ -31,4 +31,4 @@ As conversões ficam em objetos (paraCelsius, deCelsius) em vez de blocos if/els
 
 Métrica de zero absoluto: Impossibilita a inserção de uma temperatura menor que o zero absoluto registrado pela física. 
 
-Acesso ao projeto: [https://temperaturemeterv1.netlify.app/]
+[Acesso ao projeto(https://temperaturemeterv1.netlify.app/)]
